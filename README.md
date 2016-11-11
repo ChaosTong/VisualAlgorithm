@@ -1,5 +1,7 @@
 # VisualAlgorithm
 
+> Use Swift 3.0 build pass in Xcode8.1
+
 1. 插入排序
 2. 选择排序
 3. 归并排序 从上至下
@@ -17,7 +19,7 @@
 
 -   重复上述操作，至遍历完数组
 
-    ![插入排序.gif](http://ww3.sinaimg.cn/large/7a1656d9gw1f9o9m96h46g20ko120b2g.gif)
+      ![插入排序.gif](http://ww3.sinaimg.cn/large/7a1656d9gw1f9o9m96h46g20ko120b2g.gif)
 
 ```swift
 func insertionSort(_ nowTime: TimeInterval, _ isOrderedBefore: @escaping (Int, Int) -> Bool) {
